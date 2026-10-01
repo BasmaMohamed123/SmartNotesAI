@@ -10,7 +10,7 @@ An AI-powered personal knowledge management application that allows users to upl
 
 
 
-\* Upload and process \*\*TXT, PDF, and DOCX\*\* documents
+\* Upload and process TXT, PDF, and DOCX documents
 
 \* Extract and preprocess document text
 
@@ -18,7 +18,7 @@ An AI-powered personal knowledge management application that allows users to upl
 
 \* Automatically classify uploaded documents
 
-\* Generate semantic embeddings using \*\*Sentence Transformers\*\*
+\* Generate semantic embeddings using Sentence Transformers
 
 \* Perform natural-language semantic search
 
@@ -82,25 +82,25 @@ Relevant Results
 
 
 
-\* \*\*Python\*\*
+\* Python
 
-\* \*\*PyTorch\*\*
+\* PyTorch
 
-\* \*\*Sentence Transformers\*\*
+\* Sentence Transformers
 
-\* \*\*Hugging Face Transformers\*\*
+\* Hugging Face Transformers
 
-\* \*\*Scikit-learn\*\*
+\* Scikit-learn
 
-\* \*\*FastAPI\*\*
+\* FastAPI
 
-\* \*\*Pandas\*\*
+\* Pandas
 
-\* \*\*PyPDF\*\*
+\* PyPDF
 
-\* \*\*python-docx\*\*
+\* python-docx
 
-\* \*\*Jupyter Notebook\*\*
+\* Jupyter Notebook
 
 
 
@@ -284,7 +284,7 @@ pytest
 
 
 
-SmartNotesAI was developed to explore practical applications of \*\*Artificial Intelligence, Natural Language Processing, document processing, and semantic search\*\* by combining multiple AI components into a single knowledge-management application.
+SmartNotesAI was developed to explore practical applications of Artificial Intelligence, Natural Language Processing, document processing, and semantic search by combining multiple AI components into a single knowledge-management application.
 
 
 
