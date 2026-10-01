@@ -1,4 +1,4 @@
-\# SmartNotesAI
+# SmartNotesAI
 
 
 
@@ -6,35 +6,35 @@ An AI-powered personal knowledge management application that allows users to upl
 
 
 
-\## Features
+## Features
 
 
 
-\* Upload and process TXT, PDF, and DOCX documents
+* Upload and process TXT, PDF, and DOCX documents
 
-\* Extract and preprocess document text
+* Extract and preprocess document text
 
-\* Split documents into manageable chunks
+* Split documents into manageable chunks
 
-\* Automatically classify uploaded documents
+* Automatically classify uploaded documents
 
-\* Generate semantic embeddings using Sentence Transformers
+* Generate semantic embeddings using Sentence Transformers
 
-\* Perform natural-language semantic search
+* Perform natural-language semantic search
 
-\* Retrieve the most relevant document sections
+* Retrieve the most relevant document sections
 
-\* Keyword extraction
+* Keyword extraction
 
-\* Local document storage and processing
+* Local document storage and processing
 
-\* REST API for the AI engine
+* REST API for the AI engine
 
-\* Automated tests for core components and end-to-end workflows
+* Automated tests for core components and end-to-end workflows
 
 
 
-\## AI \& NLP Pipeline
+## AI \& NLP Pipeline
 
 
 
@@ -78,33 +78,33 @@ Relevant Results
 
 
 
-\## Technologies
+## Technologies
 
 
 
-\* Python
+* Python
 
-\* PyTorch
+* PyTorch
 
-\* Sentence Transformers
+* Sentence Transformers
 
-\* Hugging Face Transformers
+* Hugging Face Transformers
 
-\* Scikit-learn
+* Scikit-learn
 
-\* FastAPI
+* FastAPI
 
-\* Pandas
+* Pandas
 
-\* PyPDF
+* PyPDF
 
-\* python-docx
+* python-docx
 
-\* Jupyter Notebook
+* Jupyter Notebook
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -114,21 +114,21 @@ SmartNotesAI/
 
 │
 
-├── ai\_engine/
+├── ai_engine/
 
-│   ├── document\_loader.py
+│   ├── document_loader.py
 
-│   ├── document\_processor.py
+│   ├── document_processor.py
 
 │   ├── chunking.py
 
 │   ├── classification.py
 
-│   ├── embedding\_model.py
+│   ├── embedding_model.py
 
-│   ├── search\_engine.py
+│   ├── search_engine.py
 
-│   ├── keyword\_extraction.py
+│   ├── keyword_extraction.py
 
 │   └── readers/
 
@@ -142,17 +142,17 @@ SmartNotesAI/
 
 ├── notebooks/
 
-│   └── 01\_Document\_Search.ipynb
+│   └── 01_Document_Search.ipynb
 
 │
 
 ├── tests/
 
-│   ├── test\_classification.py
+│   ├── test_classification.py
 
-│   ├── test\_pipeline.py
+│   ├── test_pipeline.py
 
-│   ├── test\_end\_to\_end.py
+│   ├── test_end_to_end.py
 
 │   └── ...
 
@@ -168,33 +168,33 @@ SmartNotesAI/
 
 
 
-\## How It Works
+## How It Works
 
 
 
-1\. The user uploads a document in TXT, PDF, or DOCX format.
+1. The user uploads a document in TXT, PDF, or DOCX format.
 
-2\. The application extracts the document text.
+2. The application extracts the document text.
 
-3\. The text is cleaned and divided into smaller chunks.
+3. The text is cleaned and divided into smaller chunks.
 
-4\. The document can be classified automatically.
+4. The document can be classified automatically.
 
-5\. Text chunks are converted into numerical embeddings.
+5. Text chunks are converted into numerical embeddings.
 
-6\. A semantic search query is converted into an embedding.
+6. A semantic search query is converted into an embedding.
 
-7\. The system compares the query with stored document embeddings.
+7. The system compares the query with stored document embeddings.
 
-8\. The most relevant document sections are returned to the user.
-
-
-
-\## Running the Project
+8. The most relevant document sections are returned to the user.
 
 
 
-\### 1. Clone the repository
+## Running the Project
+
+
+
+### 1. Clone the repository
 
 
 
@@ -208,7 +208,7 @@ cd SmartNotesAI
 
 
 
-\### 2. Create a virtual environment
+### 2. Create a virtual environment
 
 
 
@@ -220,7 +220,7 @@ python -m venv venv
 
 
 
-\### 3. Activate the environment
+### 3. Activate the environment
 
 
 
@@ -230,13 +230,13 @@ Windows:
 
 ```bash
 
-venv\\Scripts\\activate
+venv\Scripts\activate
 
 ```
 
 
 
-\### 4. Install dependencies
+### 4. Install dependencies
 
 
 
@@ -248,7 +248,7 @@ pip install -r requirements.txt
 
 
 
-\### 5. Run the application
+### 5. Run the application
 
 
 
@@ -260,7 +260,7 @@ python app/app.py
 
 
 
-\## Testing
+## Testing
 
 
 
@@ -280,11 +280,12 @@ pytest
 
 
 
-\## Project Goal
+## Project Goal
 
 
 
 SmartNotesAI was developed to explore practical applications of Artificial Intelligence, Natural Language Processing, document processing, and semantic search by combining multiple AI components into a single knowledge-management application.
+
 
 
 
