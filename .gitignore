@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Generated files
+outputs/
+storage/
+
+# Local data
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+ai_engine.zip
+
+# Local test files
+app/uploaded_files/
+notebooks/*.db
+ai_engine/readers/test_note.txt
+tests/test_files/
